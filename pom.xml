@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.loudsight</groupId>
+        <artifactId>parent</artifactId>
+        <version>0.0.10.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.loudsight.example</groupId>
+    <artifactId>full-stack-spring-boot-and-react-example</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>Full Stack Spring Boot and React Example</name>
+    <description>Full Stack Spring Boot and React Example Module</description>
+    <url>https://loudsight.com/notes/full-stack-spring-boot-and-react-example</url>
+
+    <modules>
+        <module>backend</module>
+        <!-- module>frontend</module -->
+    </modules>
+
+    <licenses>
+        <license>
+            <name>Apache License 2.0 (Apache-2.0)</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.html</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>loudsight</name>
+            <email>spam@loudsight.com</email>
+            <organization>Loudsight</organization>
+            <organizationUrl>https://loudsight.com</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git@github.com:loudsight/full-stack-spring-boot-and-react-example.git</connection>
+        <developerConnection>scm:git@github.com:loudsight/full-stack-spring-boot-and-react-example.git</developerConnection>
+        <url>git@github.com:loudsight/full-stack-spring-boot-and-react-example.git</url>
+    </scm>
+
+</project>
+
+

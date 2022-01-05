@@ -1,0 +1,40 @@
+application:
+
+  static-files:
+    paths: /static/**, /wasm/static/**, /api/**, /*.js, /*.png, /*.map, /*.txt, /*.html, /*.ico, /*.json, /, /index.html
+    prefixes:
+
+spring:
+  main:
+    banner-mode: "off"
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+#            authorization-grant-type: "client_credentials"
+            client-id: <id>
+            client-secret: <secret>
+            scope: read:user
+
+#          linkedin:
+#            clientId=<your-client-id>
+#            clientSecret=<your-client-secret>
+#            authorization-grant-type=authorization_code
+#            client-authentication-method=post
+#            scope=r_liteprofile, r_emailaddress
+#            redirect-uri-template={baseUrl}/login/oauth2/code/{registrationId}
+#            client-name=Linkedin
+#            provider=linkedin
+#  spring.security.oauth2.client.provider.linkedin.authorization-uri=https://www.linkedin.com/oauth/v2/authorization
+#  spring.security.oauth2.client.provider.linkedin.token-uri=https://www.linkedin.com/oauth/v2/accessToken
+#  spring.security.oauth2.client.provider.linkedin.user-info-uri=https://api.linkedin.com/v2/me
+#  spring.security.oauth2.client.provider.linkedin.user-name-attribute=id
+#  linkedin.email-address-uri=https://api.linkedin.com/v2/emailAddress?q=members&projection=(elements*(handle~))
+
+  management:
+    endpoints:
+      web:
+        exposure:
+          include: health,info,metrics
+
