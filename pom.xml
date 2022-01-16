@@ -6,12 +6,16 @@
     <parent>
         <groupId>com.loudsight</groupId>
         <artifactId>parent</artifactId>
-        <version>0.0.10.1-SNAPSHOT</version>
+        <version>0.0.10.0</version>
     </parent>
+
+    <properties>
+        <revision>1-SNAPSHOT</revision>
+    </properties>
 
     <groupId>com.loudsight.example</groupId>
     <artifactId>full-stack-spring-boot-and-react-example</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.${revision}</version>
     <packaging>pom</packaging>
 
     <name>Full Stack Spring Boot and React Example</name>
