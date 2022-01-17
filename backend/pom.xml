@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>com.loudsight.example</groupId>
 		<artifactId>full-stack-spring-boot-and-react-example</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>0-SNAPSHOT</version>
 	</parent>
 
 	<groupId>com.loudsight.example.full-stack-spring-boot-and-react-example</groupId>
